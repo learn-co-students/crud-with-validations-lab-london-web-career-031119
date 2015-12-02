@@ -20,3 +20,5 @@ Lab is basically about creating a scaffold for Song, Post, Author, and Artist wi
 the models should have some validations (unique artist name, song title presence, etc)
 
 forms should require some customization in terms of validation messages or errors and just something to make it a little custom.
+
+<a href='https://learn.co/lessons/crud-with-validations-lab' data-visibility='hidden'>View this lesson on Learn.co</a>
