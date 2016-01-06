@@ -1,24 +1,37 @@
-# Crud With Validations Lab
+# CRUD With Validations Lab
 
-## Objectives
+Your goal in this lab is to create a thorough CRUD interface for one model, the
+`Song`.
 
-- Build a full CRUD Restuful Controller / Application for a Single Model
-- Use the resources generator (not the scaffold one - we should write tests to make sure they didn't use the scaffold generator)
-- correctly implement the migrations for Post, Author, Song and Artist
-- define post, author, song, and artist model with Validations
-- build index, show, new, edit views that interlink using route helpers
-- use form_for to build dynamic forms that prefill and display validation errors
-- build a delete form or link using button_to or link_to
-- build create update and destroy actions that check validation persist the object and render or redirect correctly
-- use strong params to safely mass assign form data
-- Create a home page and root_path that goes to SiteController#index that has links to the main indexes of each resource.
+# Songs
 
-## Notes
+Songs have the following attributes and limitations:
 
-Lab is basically about creating a scaffold for Song, Post, Author, and Artist without using that generator so they have to hand code it based on the resource generator.
+- `title`, a `string`
+  - Must not be blank
+  - Cannot be repeated by the same artist in the same year
+- `released`, a `boolean` describing whether the song was ever officially
+  released.
+  - Must be `true` or `false`
+- `release_year`, an `integer`
+  - Optional if `released` is `false`
+  - Must not be blank if `released` is `true`
+  - Must be less than or equal to the current year
+- `artist_name`, a `string`
+  - Must not be blank
+- `genre`, a `string`
 
-the models should have some validations (unique artist name, song title presence, etc)
+# Requirements
 
-forms should require some customization in terms of validation messages or errors and just something to make it a little custom.
+Use the `resource` generator, **not** the `scaffold` generator.
+
+1. Define a model with validations for `Song`.
+1. Define all RESTful routes for songs.
+1. Build views that connect to each other using route helpers.
+1. Use `form_for` to build forms with pre-fill and error list features. (*Hint:
+   Try using a partial to cut down on copypasting!*)
+1. Allow deleting songs with a link, using `link_to`.
+1. Use strong parameters in your POST/PATCH controller actions.
+1. Set the root route to the song index.
 
 <a href='https://learn.co/lessons/crud-with-validations-lab' data-visibility='hidden'>View this lesson on Learn.co</a>
