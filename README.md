@@ -30,7 +30,7 @@ Use the `resource` generator, **not** the `scaffold` generator.
 1. Build views that connect to each other using route helpers.
 1. Use `form_for` to build forms with pre-fill and error list features. (*Hint:
    Try using a partial to cut down on copypasting!*)
-1. Allow deleting songs with a link, using `link_to`.
+1. Allow deleting songs with a link, using `link_to`. (HINT: You might need to [add some functionality](https://github.com/rails/jquery-ujs) so that you can properly delete a song using just a link. Be sure to [include your new assets](http://apidock.com/rails/v4.2.1/ActionView/Helpers/AssetTagHelper/javascript_include_tag) in `application.html.erb`.)
 1. Use strong parameters in your POST/PATCH controller actions.
 1. Set the root route to the song index.
 
