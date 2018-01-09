@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.7.1'
+gem 'rails', '~> 4.2'
 gem 'sqlite3'
 gem 'rspec-rails'
 gem 'sass-rails', '~> 5.0'
@@ -14,5 +14,4 @@ group :development, :test do
 end
 
 group :development do
-  gem 'web-console', '~> 2.0'
 end
