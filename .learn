@@ -1,5 +1,8 @@
 tags:
-  - tag1
+  - rails
+  - crud
+  - validations
+  - lab
 languages:
-  - language1
+  - ruby
 resources: 0
