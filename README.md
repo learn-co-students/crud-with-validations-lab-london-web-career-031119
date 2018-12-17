@@ -31,7 +31,7 @@ Use the `resource` generator, **not** the `scaffold` generator
 
 3.  Build views that connect to each other using route helpers. 
 
-4.  Use `form_for` to build forms with pre-fill and error list features. (_Hint:
+4.  Use `button_to` to build forms with pre-fill and error list features. (_Hint:
     Try using a partial to cut down on copy/pasting!_)
 
 5.  Allow deleting songs with a link, using `link_to`. Check out the [official
