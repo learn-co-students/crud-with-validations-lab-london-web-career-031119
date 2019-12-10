@@ -29,22 +29,20 @@ Use the `resource` generator, **not** the `scaffold` generator
 
 2.  Define all RESTful routes for songs
 
-3.  Build views that connect to each other using route helpers. 
+3.  Render the list of songs in an HTML table.
 
-4.  Use `button_to` to build forms with pre-fill and error list features. (_Hint:
+4.  Build views that connect to each other using route helpers. 
+
+5.  Use `form_for` to build forms with pre-fill and error list features. (_Hint:
     Try using a partial to cut down on copy/pasting!_)
 
-5.  Allow deleting songs with a link, using `link_to`. Check out the [official
+6.  Allow deleting songs with a link, using `link_to`. Check out the [official
     documentation][link_to] for additional info including setting the `method:` to
     `:delete`.
-
-6.  Be sure to [include your new assets][assets] in `application.html.erb`
 
 7.  Use strong parameters in your POST/PATCH controller actions.
 
 8.  Set the root route to the song index.
-
-9.  Render the list of songs in an HTML table.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/crud-with-validations-lab' title='CRUD With Validations Lab'>CRUD With Validations Lab</a> on Learn.co and start learning to code for free.</p>
 
