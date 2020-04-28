@@ -11,7 +11,7 @@ Songs have the following attributes and limitations:
   - Must not be blank
   - Cannot be repeated by the same artist in the same year
 - `released`, a `boolean` describing whether the song was ever officially
-  released.
+  released
   - Must be `true` or `false`
 - `release_year`, an `integer`
   - Optional if `released` is `false`
@@ -25,9 +25,9 @@ Songs have the following attributes and limitations:
 
 Use the `resource` generator, **not** the `scaffold` generator
 
-1.  Define a model with validations for `Song`
+1.  Define a model with validations for `Song`.
 
-2.  Define all RESTful routes for songs
+2.  Define all RESTful routes for songs.
 
 3.  Render the list of songs in an HTML table.
 
