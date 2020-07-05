@@ -44,7 +44,5 @@ Use the `resource` generator, **not** the `scaffold` generator
 
 8.  Set the root route to the song index.
 
-<p class='util--hide'>View <a href='https://learn.co/lessons/crud-with-validations-lab' title='CRUD With Validations Lab'>CRUD With Validations Lab</a> on Learn.co and start learning to code for free.</p>
-
 [link_to]: http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html#method-i-link_to
 [assets]: http://apidock.com/rails/v4.2.1/ActionView/Helpers/AssetTagHelper/javascript_include_tag
